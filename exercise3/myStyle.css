@@ -1,0 +1,33 @@
+p
+{
+    background-color: #ECE1DE;
+    color: black;
+    font-family: arial;
+    font-size: 12pt;
+}
+.title
+{
+    color: #FFC300;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 20pt; 
+}
+body
+{
+    background-image: url(clouds.jpg);
+    background-color: darkgreen;
+    background-size: 10;
+    background-repeat: repeat;
+    background-attachment:fixed;
+}
+
+a
+{
+    color: #FFC300;
+}
+
+a:hover
+{
+    background-color: black;
+    color: #FFC300;
+}
