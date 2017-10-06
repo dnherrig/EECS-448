@@ -1,0 +1,69 @@
+p
+{
+    color: black;
+    font-family: fantasy;
+    font-size: 12pt;
+}
+.title
+{
+    color: black;
+    font-weight: bold;
+    font-family: fantasy;
+    font-size: 45pt;
+}
+.button {
+    background-color: black;
+    border-width: 5px;
+    border-color: white;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+}
+.bigbutton {
+    background-color: black;
+    border-width: 5px;
+    border-color: white;
+    color: white;
+    padding: 15px 88px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.bigbutton2 {
+    background-color: black;
+    border-width: 5px;
+    border-color: white;
+    color: white;
+    padding: 15px 95px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.smallbutton {
+    background-color: black;
+    border-width: 2px;
+    border-color: white;
+    color: white;
+    padding: 2px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: fantasy;
+    
+}
+body
+{
+    background-image: url(daftpunk.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-color: #F63F31;
+}

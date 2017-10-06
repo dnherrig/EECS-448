@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+        <script type="text/javascript"
+         src="formCheck.js">
+         </script>
+
+         <link href="style.css"
+           rel="stylesheet"
+           type="text/css"/>
+
+    <head>
+        <title>Storage Products</title>
+    </head>
+    <body>
+      <center>
+
+      <form action = "customerBackend.php" method = "post" onsubmit="return shipCheck()">
+
+      <p id = "logIn">
+      Username (email):<br>
+      <input type="text" id="userName" name = "userName"><br>
+      Password:<br>
+      <input type="password" id="password" name = "password">
+      <br>
+      <input type = "button" value = "Login" onclick = "buttonPress()">
+      </p>
+
+
+
+    <table name = "products" id ="products" hidden>
+    <tr>
+    <td center colspan="3">Storage Products</td>
+    </tr>
+    <tr>
+    <td>Trash Bag ($2)</td>
+    <td>Cardboard Box ($8)</td>
+    <td>Storage Tub ($16)</td>
+    </tr>
+    <tr>
+    <td><img src="GarbageBag.jpg" id="myImgId" width="150" height="150"></td>
+    <td><img src="CarboardBox.jpg" id="myImgId" width="150" height="150"></td>
+    <td><img src="Storage Tub.jpg" id="myImgId" width="150" height="150"></td>
+    </tr>
+    <tr>
+    <td>How Many?
+      <input type="number" id="trashBagQuant" name = "trashBagQuant">
+    </td>
+    <td>How Many?
+      <input type="number" id="cardBoardBoxQuant" name ="cardBoardBoxQuant">
+    </td>
+    <td>How Many?
+      <input type="number" id="storageTubQuant" name = "storageTubQuant">
+    </td>
+    </tr>
+    </table>
+
+    <shippingOptions id = "shipping" hidden>
+      <p class="title">Shipping Options</p>
+      <input type="radio" id ="Shipping" name="Shipping" value="Free 7 day"> Free 7 day<br>
+      <input type="radio" id ="Shipping" name="Shipping" value="$5.00 three day"> $5.00 three day<br>
+      <input type="radio" id ="Shipping" name="Shipping" value="$50.00 over night"> $50.00 over night<br>
+      <input type = "submit" value = "Submit Order">
+      </shippingOptions>
+      <input type="reset" value="Reset then Logout" onclick= location.reload()>
+  </form>
+  </center>
+    </body>
+</html>
