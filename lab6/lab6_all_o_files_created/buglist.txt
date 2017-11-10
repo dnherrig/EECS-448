@@ -1,0 +1,7 @@
+add Back adds to the front of the list and not the back like it is supposed to
+
+is empty doest return false if there are values in the list, it always returns true
+
+remove back does not remove anything, although it does return false indicating that it didnt remove anything
+
+remove front doesnt remove front, although it does return false indicating that it doesnt remove front
